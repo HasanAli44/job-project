@@ -116,10 +116,18 @@ const Footer = () => {
       <div className="py-8 flex justify-between items-center">
         <h4 className="text-xl font-medium">Join our official channels</h4>
         <div className="flex">
-          <AiFillInstagram className="text-[#00000080] w-[26px] h-[26px] mr-4"></AiFillInstagram>
-          <FaSquareXTwitter className="text-[#00000080] w-[20px] h-[26px] mr-4"></FaSquareXTwitter>
-          <BsFacebook className="text-[#00000080] w-[22px] h-[26px] mr-4"></BsFacebook>
-          <FaDiscord className="text-[#00000080] w-[26px] h-[26px]"></FaDiscord>
+          <a href="#">
+            <AiFillInstagram className="text-[#00000080] w-[26px] h-[26px] mr-4"></AiFillInstagram>
+          </a>
+          <a href="#">
+            <FaSquareXTwitter className="text-[#00000080] w-[20px] h-[26px] mr-4"></FaSquareXTwitter>
+          </a>
+          <a href="#">
+            <BsFacebook className="text-[#00000080] w-[22px] h-[26px] mr-4"></BsFacebook>
+          </a>
+          <a href="#">
+            <FaDiscord className="text-[#00000080] w-[26px] h-[26px]"></FaDiscord>
+          </a>
         </div>
       </div>
       <div className="border-2 border-dashed mt-5"></div>

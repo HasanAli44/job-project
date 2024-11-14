@@ -7,25 +7,25 @@
   },
   {
     "name": "Ava Johnson",
-    "photoUrl": "path/to/photo2.jpg",
+    "photoUrl": "../public/images/avatar2.png",
     "quote": "A fantastic platform with a wide variety of health and wellness courses. The instructors are top-notch, and the content is very engaging.",
     "quoteIconUrl": "../public/images/010.png"
   },
   {
     "name": "Liam Smith",
-    "photoUrl": "path/to/photo3.jpg",
+    "photoUrl": "../public/images/avatar3.png",
     "quote": "It's not just about physical health but mental and emotional well-being too.",
     "quoteIconUrl": "../public/images/010.png"
   },
   {
     "name": "Sophia Lee",
-    "photoUrl": "path/to/photo4.jpg",
+    "photoUrl": "../public/images/avatar4.png",
     "quote": "I love the flexibility of the courses. I can learn at my own pace and revisit the material whenever I need to.",
     "quoteIconUrl": "../public/images/010.png"
   },
   {
     "name": "Noah Davis",
-    "photoUrl": "path/to/photo5.jpg",
+    "photoUrl": "../public/images/avatar1.png",
     "quote": "A fantastic platform with a wide variety of health and wellness courses. The instructors are top-notch, and the content is very engaging.",
     "quoteIconUrl": "../public/images/010.png"
   }

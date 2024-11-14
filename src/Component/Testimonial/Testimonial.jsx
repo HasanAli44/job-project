@@ -2,7 +2,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper/modules";
-import { RiDoubleQuotesL } from "react-icons/ri";
 import { useEffect, useState } from "react";
 
 const Testimonial = () => {
@@ -14,13 +13,14 @@ const Testimonial = () => {
   }, []);
   return (
     <div className="mt-[60px] xl:px-40 px-5">
-      <h2 className="text-[40px] font-semibold text-center pb-[60px]">
-        Learners love EduPath. See why <br /> they rate us 4.9 out of 5
+      <h2 className="xl:text-[40px] md:text-[40px] !leading-[1.3] text-3xl font-semibold text-center pb-[60px] xl:w-1/2 mx-auto">
+        Learners love EduPath. See whythey rate us 4.9 out of 5
       </h2>
       <Swiper
         slidesPerView={4}
         spaceBetween={30}
         loop={true}
+        autoplay={true}
         pagination={{
           clickable: true,
         }}
