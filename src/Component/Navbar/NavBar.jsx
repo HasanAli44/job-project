@@ -74,7 +74,7 @@ const NavBar = () => {
           </ul>
         </div>
         <div>
-          <a href="#" className=" text-3xl font-semibold">
+          <a href="#" className=" text-[32px] font-semibold">
             Logo
           </a>
         </div>
@@ -144,7 +144,7 @@ const NavBar = () => {
         <a className="mr-6" href="#">
           <SlHandbag className="text-[#287279] w-[28.01px] h-[25px]"></SlHandbag>
         </a>
-        <button className="bg-[#287279] text-white w-[86px] h-[42px] rounded-[32px]">
+        <button className="bg-[#287279] text-white w-[86px] h-[42px] rounded-[32px] font-semibold text-[14px]">
           Login
         </button>
       </div>

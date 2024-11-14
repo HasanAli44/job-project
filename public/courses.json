@@ -1,0 +1,62 @@
+[
+  {
+    "card_image": "./images/0001.png",
+    "level": "Beginner",
+    "category": "Nutrition and Diet",
+    "title": "Foundation of Sleep: Sleep Science and Sleep Disorders",
+    "rating": 4.9,
+    "reviews": 566,
+    "duration": "6h 34m",
+    "lessons": 3,
+    "instructor": {
+      "name": "Kilian Murphe",
+      "avatar": "./images/avatar1.png"
+    },
+    "price": 40
+  },
+  {
+    "card_image": "./images/0002.png",
+    "level": "Intermediate ",
+    "category": "Health and Wellness",
+    "title": "Parenting in the Digital Age: Navigating Screen Time",
+    "rating": 4.9,
+    "reviews": 566,
+    "duration": "6h 34m",
+    "lessons": 3,
+    "instructor": {
+      "name": "Sarah Hopkins",
+      "avatar": "./images/avatar2.png"
+    },
+    "price": 50
+  },
+  {
+    "card_image": "./images/0003.png",
+    "level": "Beginner",
+    "category": "Nutrition and Diet",
+    "title": "Holistic Health: Integrating Mind, Body, and Spirit",
+    "rating": 4.9,
+    "reviews": 566,
+    "duration": "6h 34m",
+    "lessons": 3,
+    "instructor": {
+      "name": "Luna Karim",
+      "avatar": "./images/avatar3.png"
+    },
+    "price": "Enrolled"
+  },
+  {
+    "card_image": "./images/0004.png",
+    "level": "Beginner",
+    "category": "Nutrition and Diet",
+    "title": "Introduction to healthy Diet and Nutrition",
+    "rating": 4.9,
+    "reviews": 566,
+    "duration": "6h 34m",
+    "lessons": 3,
+    "instructor": {
+      "name": "Kate Winslate",
+      "avatar": "./images/avatar4.png"
+    },
+    "price": 40
+  }
+]
