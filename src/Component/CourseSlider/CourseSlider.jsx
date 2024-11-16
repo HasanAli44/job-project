@@ -105,9 +105,6 @@ const CourseSlider = () => {
                       {course.instructor.name}
                     </p>
                   </div>
-                  {/* <p className="my-auto text-2xl font-medium">
-                    ${course.price}
-                  </p> */}
 
                   {course.enrolled ? (
                     <button className="flex items-center bg-[#0000000D] border border-[#00000033] px-2 py-1 rounded-[5px]">
