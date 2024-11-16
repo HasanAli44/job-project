@@ -1,3 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Onest:wght@100..900&display=swap");
+
+.inter {
+  font-family: "Inter", sans-serif;
+}
+.onest {
+  font-family: "Onest", serif;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.swiper-wrapper {
+  /* overflow: hidden; */
+}
+
+.swiper-button-prev {
+  top: -100px !important;
+  right: 100px !important;
+  left: 0;
+}

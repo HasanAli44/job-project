@@ -2,7 +2,7 @@ import { SlHandbag } from "react-icons/sl";
 
 const NavBar = () => {
   return (
-    <div className="navbar bg-base-100 xl:px-40 px-5 py-5">
+    <div className="navbar bg-base-100 xl:px-40 px-5 py-5 relative z-10">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -74,7 +74,7 @@ const NavBar = () => {
           </ul>
         </div>
         <div>
-          <a href="#" className=" text-[32px] font-semibold">
+          <a href="#" className=" text-[32px] font-semibold inter">
             Logo
           </a>
         </div>
@@ -83,7 +83,7 @@ const NavBar = () => {
         <ul className="menu menu-horizontal px-1">
           <li>
             <details>
-              <summary className="font-medium text-[18px] hover:bg-transparent ">
+              <summary className="font-medium text-[16px] hover:bg-transparent ">
                 Courses
               </summary>
               <ul className="p-2  w-52">
@@ -98,7 +98,7 @@ const NavBar = () => {
           </li>
           <li>
             <details>
-              <summary className="font-medium text-[18px] hover:bg-transparent">
+              <summary className="font-medium text-[16px] hover:bg-transparent">
                 Instructors
               </summary>
               <ul className="p-2  w-52">
@@ -114,7 +114,7 @@ const NavBar = () => {
 
           <li>
             <details>
-              <summary className="font-medium text-[18px] hover:bg-transparent">
+              <summary className="font-medium text-[16px] hover:bg-transparent">
                 Blogs
               </summary>
               <ul className="p-2  w-52 ">
@@ -128,12 +128,12 @@ const NavBar = () => {
             </details>
           </li>
 
-          <li className="text-[18px] font-medium ">
+          <li className="text-[16px] font-medium ">
             <a className="hover:bg-transparent" href="#">
               About
             </a>
           </li>
-          <li className="text-[18px] font-medium">
+          <li className="text-[16px] font-medium">
             <a className="hover:bg-transparent" href="#">
               Contact
             </a>

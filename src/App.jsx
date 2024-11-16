@@ -1,4 +1,4 @@
-import "./App.css";
+import { AccordionCustomStyles } from "./Component/AccordionCustomStyles/AccordionCustomStyles";
 import Banner from "./Component/Banner/Banner";
 import Footer from "./Component/Footer/Footer";
 import NavBar from "./Component/Navbar/NavBar";
@@ -12,6 +12,7 @@ function App() {
       <NavBar></NavBar>
       <Banner></Banner>
       <PopularCourses></PopularCourses>
+
       <Provide></Provide>
       <Testimonial></Testimonial>
       <Footer></Footer>

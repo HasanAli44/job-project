@@ -2,11 +2,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { FaStar, FaStarHalfAlt } from "react-icons/fa";
 import { PiTimerFill } from "react-icons/pi";
 import { PiBookOpenTextFill } from "react-icons/pi";
-
+import { FaCircleCheck } from "react-icons/fa6";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
-import { Pagination, Navigation } from "swiper/modules";
+import { Navigation } from "swiper/modules";
 
 import { useEffect, useState } from "react";
 
@@ -23,12 +23,33 @@ const CourseSlider = () => {
         slidesPerView={3}
         spaceBetween={30}
         loop={true}
+        navigation={{
+          prevEl: ".custom-prev",
+          nextEl: ".custom-next",
+        }}
         pagination={{
           clickable: true,
         }}
-        modules={[Pagination, Navigation]}
-        navigation={true}
-        className="mySwiper"
+        breakpoints={{
+          300: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+        }}
+        modules={[Navigation]}
+        className="mySwiper !overflow-y-visible"
       >
         {popularCourses.map((course, index) => (
           <SwiperSlide key={index}>
@@ -84,9 +105,19 @@ const CourseSlider = () => {
                       {course.instructor.name}
                     </p>
                   </div>
-                  <p className="my-auto text-2xl font-medium">
+                  {/* <p className="my-auto text-2xl font-medium">
                     ${course.price}
-                  </p>
+                  </p> */}
+
+                  {course.enrolled ? (
+                    <button className="flex items-center bg-[#0000000D] border border-[#00000033] px-2 py-1 rounded-[5px]">
+                      <FaCircleCheck className="mr-1"></FaCircleCheck> Enrolled
+                    </button>
+                  ) : (
+                    <p className="my-auto text-2xl font-medium">
+                      ${course.price}
+                    </p>
+                  )}
                 </div>
               </div>
             </div>
